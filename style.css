@@ -1,0 +1,166 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+nav {
+    background: #0077b6;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Hero Section */
+.hero {
+    background: url('img.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+/* Container Styling */
+.container {
+    width: 80%;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #0077b6;
+    margin-bottom: 15px;
+}
+
+/* Services List */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    font-size: 1.2em;
+    padding: 5px 0;
+}
+
+/* Contact Page Styling */
+.contact-info {
+    list-style: none;
+}
+
+.contact-info li {
+    padding: 10px 0;
+    font-size: 1.2em;
+}
+
+/* Stakeholders Page */
+.stakeholders ul {
+    list-style: none;
+}
+
+.stakeholders ul li {
+    margin: 10px 0;
+}
+
+.stakeholders ul li a {
+    color: #0077b6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.stakeholders ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Subscription Page */
+.subscription-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.subscription-table th, .subscription-table td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.subscription-table th {
+    background: #0077b6;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 1.8em;
+        padding: 10px;
+    }
+    
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .subscription-table th, .subscription-table td {
+        padding: 10px;
+        font-size: 1em;
+    }
+}
